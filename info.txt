@@ -1,0 +1,32 @@
+Activate Environment: 
+cd project folder
+enviroment_3_8_5\Scripts\activate
+
+Run server: 
+cd django backend folder
+python manage.py runserver
+
+
+Run Vue:
+cd vue js frontend folder
+npm run serve
+
+
+
+-----------------------------------------------------------
+
+Create App (models.py for admin fields, serializers.py for data from db to json for front, views.py to show in front, urls.py to fetch, admin.py to register app):
+python manage.py startapp slider
+
+For Creating Djando Models for Products:
+python manage.py startapp product
+
+Make Migrations:
+python manage.py makemigrations
+
+(Create it in the DB)
+python manage.py migrate
+
+(Remember to add the serializers, in order to use the db data as json for the frontend)
+
+

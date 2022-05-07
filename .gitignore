@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+/dist
+
+django_djakets_vue/node_modules
+
+django_djakets_vue/public/index.html
+
+
+django_jackets/django_jackets/settings.py
+
+
+
+
+# local env files
+.env.local
+.env.*.local
+enviroment_3_8_5
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
