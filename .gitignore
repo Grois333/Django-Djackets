@@ -4,7 +4,7 @@ node_modules
 
 django_djakets_vue/node_modules
 
-django_djakets_vue/public/index.html
+django_djakets_vue/public
 
 
 django_jackets/django_jackets/settings.py
